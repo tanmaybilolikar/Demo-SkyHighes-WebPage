@@ -5,7 +5,6 @@ Resources:
   StaticWebsiteBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: skyhighes-webpage
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
